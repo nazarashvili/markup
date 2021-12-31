@@ -3,8 +3,12 @@ var header = document.getElementsByClassName("header");
 console.log(header);
 
 for (var i = 0; i < header.length; i++) {
-    console.log("hey");
-    header[i].addEventListener("click", function () {
-        this.classList.toggle("active");
+    console.log(header[i]);
+    header[i].addEventListener("click", (e) => {
+        var element = this.childNodes;
+        console.log(element);
+        console.log(i++);
+        this.lastChild.classList.toggle("active");
+
     });
 }

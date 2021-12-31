@@ -1,35 +1,39 @@
 body {
-    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    height: 100%;
-    padding: auto;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+  height: 100%;
+  padding: auto;
 }
-html{
-    height: 100%;
+html {
+  height: 100%;
 }
 
 .main {
-    width: 60%;
-    height: 80%;
-    background-color: white;
-    border: 20px, solid, white;
-    border-radius: 25px;
-    margin: auto;
+  width: 60%;
+  height: 80%;
+  background-color: white;
+  border: 20px, solid, white;
+  border-radius: 25px;
+  margin: auto;
 }
-.women-desktop{
-    width: 50%;
-    float: left;
+.women-desktop {
+  width: 50%;
+  float: left;
 }
-.acordeon{
-    float: right;
-    width: 40%;
-    padding-right: 2%;
+.acordeon {
+  float: right;
+  width: 40%;
+  padding-right: 2%;
 }
-.header img{
-    float: right;
+.header img {
+  float: right;
 }
 .content {
-    display: none;
+  display: none;
 }
-.active {
-    display: inline !important;
+.header .active {
+  display: inline !important;
 }
